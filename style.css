@@ -26,6 +26,13 @@ body{
     background-position: center;
 }
 
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
 /* NAVBAR & HOME START */
 .nav {
     max-width: 1200px;
@@ -208,3 +215,53 @@ body{
     height: 100%;
 }
 /* DETAIL END */
+/* ABOUT START */
+#about{
+    padding: 80px 0;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+
+}
+
+.about-us{
+    text-align: center;
+}
+
+.about-col-2 p{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about-col-2 .edu{
+    text-align: left;
+}
+
+.about-col-2 i{
+    color: #005B41;
+}
+
+.ttl{
+    padding-top: 25px;
+}
+/* ABOUT END */
