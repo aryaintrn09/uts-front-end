@@ -265,3 +265,13 @@ body{
     padding-top: 25px;
 }
 /* ABOUT END */
+/* FOOTER START */
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: var(--main-color);
+    font-weight: 300;
+    margin-top: 20px;
+}
+/* FOOTER END */
